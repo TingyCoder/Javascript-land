@@ -1,0 +1,49 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h1 {
+  text-align: center;
+}
+
+label, button {
+  padding: 12px 10px;
+  margin: 8px 180px;
+  color: rgb(217, 16, 16);
+  text-decoration: double;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 15%;
+  background-color: rgb(190, 221, 129);
+}
+
+input[type=text] {
+
+  width: 100%;
+  height: 100%;
+  padding: 12px 80px;
+  margin: 8px 180px;
+  border-color: orange;
+  border-radius: 5%;
+  box-sizing: border-box;
+}
