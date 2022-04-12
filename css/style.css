@@ -47,3 +47,8 @@ input[type=text] {
   border-radius: 5%;
   box-sizing: border-box;
 }
+
+input#wordBox {
+  width: 900px;
+  height: 200px;
+}
