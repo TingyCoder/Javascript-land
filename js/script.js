@@ -27,7 +27,7 @@ function run() {
 
   
   const wBox = document.querySelector('#wordBox').value
-  document.querySelector('h2').style.fontSize = '50px'
+  document.querySelector('h2').style.fontSize = '25px'
   document.querySelector('h2').style.color = 'orange'
 
   const yellText = `${wBox}`
