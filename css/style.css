@@ -14,19 +14,33 @@ footer,main {
 
 height: 100%;
 width: 100%;
-float: left;
+
 bottom: 0;
- position: relative;
+
 
 }
 
 
 footer {
-  height: 10rem;
+height: 200px;
   border: 3px solid black;
-/* align-items: flex-start; */
+  margin: 10px 0 10px 10px;
+float: right;
 }
 
+footer p {
+  padding: 20px 0 40px 0 ;
+
+}
+
+footer >
+ul li {
+  padding: 0 10px ;
+
+  list-style: none;
+  float: left;
+
+}
 textarea#wordBox {
   width: 50rem;
   height: 10rem;
@@ -75,12 +89,7 @@ button {
 
 }
 
-textarea[type=text] {
 
-
-  /* white-space: pre-wrap; */
-
-}
 
 button, textarea[type=text] {
 
@@ -91,15 +100,34 @@ button, textarea[type=text] {
 }
 
 
+/*
 
+social media icons 
+*/
 
-
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  padding: 30px 0;
+  font-size: 50px;
+  width: 100px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 15%;
+}
+
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
 }
