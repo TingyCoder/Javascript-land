@@ -22,13 +22,18 @@ bottom: 0;
 
 
 footer {
+  position: relative;
 height: 200px;
-  border: 3px solid black;
-  margin: 10px 0 10px 10px;
-float: right;
+ 
+  padding: 150px 0 ;
+
 }
 
 footer p {
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  float: right;
   padding: 20px 0 40px 0 ;
 
 }

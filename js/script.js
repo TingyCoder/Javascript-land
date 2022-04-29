@@ -28,13 +28,13 @@ function run() {
   
   const wBox = document.querySelector('#wordBox').value
   document.querySelector('h2').style.fontSize = '20px'
-  document.querySelector('h2').style.color = 'pink'
+  document.querySelector('h2').style.color = 'rgba(84, 25, 233, 0.8)'
   document.querySelector('h2').style.fontFamily = 'cursive';
-  document.querySelector('h2').style.borderBottom = '3px solid black'
+  document.querySelector('h2').style.borderBottom = '1px solid rgba(126, 148, 255, 0.8)'
 
-  document.querySelector('h2').style.borderTop = '3px solid black'
-  document.querySelector('h2').style.padding = ' 0 50px'
-  document.querySelector('h2').style.marginTop = ' 70px 0'
+  document.querySelector('h2').style.borderTop = '1px solid rgba(175, 127, 252, 0.8)'
+  document.querySelector('h2').style.padding = '15px 50px 10px 55px'
+  document.querySelector('h2').style.margin = ' 100px 0'
 
 
   const yellText = `${wBox}`
