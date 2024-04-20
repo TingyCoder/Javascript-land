@@ -14,16 +14,26 @@
 <!--social media icons-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+		<!-- additonal font style -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+
 	</head>
 	<body>
 
 <main>
 
 	<h1>Welcome to my voice recognition! </h1>
-	<form >
-		<label for="wordBox"> Default voice:  <mark> MARK</mark></label>
-		<!-- <input id="wordBox" maxlength="9999" type="text" placeholder="insert text here"> -->
-		<textarea id="wordBox" type="text" placeholder="insert text here"></textarea>
+ <div class="container">
+    <form>
+      <label for="wordBox">Default voice: <mark>MARK</mark></label>
+      <textarea id="wordBox" placeholder="Insert text here"></textarea>
+    </form>
+  </div>
 	<br>
 	<br>
 	
@@ -32,12 +42,15 @@
 	</form>
 
 </main>
-
-		<button id="yell" type="button" name="button">Submit</button>
+<div class="button-container">
+	<button id="yell" type="button" name="button">Submit</button>
+  </div>
+	
 
 		<h2 id="placeToYell">
 
     </h2>
+
 
 
 
@@ -54,6 +67,10 @@
 	
 
 
-		<script type="text/javascript" src="../js/script.js"></script>
+		<script type="text/javascript" src="../js/script.js">
+
+
+
+		</script>
 	</body>
 </html>
